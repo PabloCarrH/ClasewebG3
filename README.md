@@ -15,5 +15,5 @@ Tareas para el día lunes (2 de septiembre).
 2. Análisis y definición de requerimientos de su propuestas
 3. Traer el diseño de la página web 
     Notas: 
-        * Sebe estar publicado y debe manejar una base de datos
+        * Se debe estar publicado y debe manejar una base de datos
         * Se puede usar cualquier tecnología 
