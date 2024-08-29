@@ -17,7 +17,6 @@ Requerimientos:
 - Entender las diferentes expresiones Colombianas.
 - La aplicacion va a manejar audios en donde se van a reproducir distintos colombianismos con el fin de comprenderlos.
 - El usuario debe poder ingresar con usuario y contraseña.
-- la plataforma tendra una categorización por regiones y tema
-- la plataforma tendra actividades, contenido interactivo  y gamificado
-- 
-- 
+- La plataforma tendrá una categorización por regiones y tema.
+- La plataforma tendrá actividades, contenido interactivo  y gamificado.
+- Se debe manejar un sistema de reintentos al momento de equivocarse.
