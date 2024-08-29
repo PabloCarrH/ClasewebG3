@@ -8,7 +8,8 @@ Aprender a hablar en español
 Un buen diseño mejora la experiencia del usuario al facilitar la navegación y la interacción. Un diseño intuitivo y bien estructurado permite a los usuarios encontrar fácilmente la información que están buscando.
 Plan de trabajo
 Desarrollo de aplicación web
-Analisis
+Analisis:
+Viendo la necesidad de las personas extranjeros de entender la jerga Colombiana, disponemos una aplicacion en la que explicamos los posibles significados
 Tareas para el día lunes (2 de septiembre).
 el nombre de la aplicacion que se va a trabajar en entorno web o pagina web es hablaparce
 1. Tema de la pagina web: plataforma de aprendizaje de colombianismos / Aprender a hablar en español con reproductor de musica, para que no sea aburrido
