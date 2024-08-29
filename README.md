@@ -10,17 +10,10 @@ Plan de trabajo
 Desarrollo de aplicación web
 
 Analisis:
-Viendo la necesidad de las personas extranjeros de entender la jerga Colombiana, disponemos una aplicacion en la que explicamos los posibles significados
-Tareas para el día lunes (2 de septiembre).
+- En Colombia somos un país lleno de diversidad, por lo tanto contamos con una gran cantidad de dichos o palabras que hacen parte de nuestra jerga. Viendo la necesidad de las personas extranjeros de entender la jerga Colombiana, disponemos una aplicación en la que explicamos los posibles significados con su definición y pronunciación.
+- Tema de la página web: plataforma de aprendizaje de colombianismos / Aprender a hablar en español con reproductor de música, para que no sea tedioso (Aburrido).
 
 Requerimientos:
--Entender las diferentes expreciones Colombianas
-1. La aplicacion va a manejar audios en donde se van a reproducir distintos colombianismos con el fin de comprenderlos 
-
-el nombre de la aplicacion que se va a trabajar en entorno web o pagina web es hablaparce
-1. Tema de la pagina web: plataforma de aprendizaje de colombianismos / Aprender a hablar en español con reproductor de musica, para que no sea aburrido
-2. Análisis y definición de requerimientos de su propuestas
-3. Traer el diseño de la página web 
-    Notas: 
-        * Se debe estar publicado y debe manejar una base de datos
-        * Se puede usar cualquier tecnología 
+- Entender las diferentes expresiones Colombianas.
+- La aplicacion va a manejar audios en donde se van a reproducir distintos colombianismos con el fin de comprenderlos.
+- El usuario debe poder ingresar con usuario y contraseña.
