@@ -9,7 +9,7 @@ Un buen diseño mejora la experiencia del usuario al facilitar la navegación y 
 Plan de trabajo
 Desarrollo de aplicación web
 
-Tareas para el día lunes (1 de septiembre).
+Tareas para el día lunes (2 de septiembre).
 Aprender a hablar en español con reproductor de musica, para que no sea aburrido
 1. Tema de la página web
 2. Análisis y definición de requerimientos de su propuestas
