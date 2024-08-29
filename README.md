@@ -15,6 +15,7 @@ Tareas para el día lunes (2 de septiembre).
 
 Requerimientos:
 -Entender las diferentes expreciones Colombianas
+1. La aplicacion va a manejar audios en donde se van a reproducir distintos colombianismos con el fin de comprenderlos 
 
 el nombre de la aplicacion que se va a trabajar en entorno web o pagina web es hablaparce
 1. Tema de la pagina web: plataforma de aprendizaje de colombianismos / Aprender a hablar en español con reproductor de musica, para que no sea aburrido
