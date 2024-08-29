@@ -11,7 +11,7 @@ Desarrollo de aplicación web
 
 Tareas para el día lunes (2 de septiembre).
 Aprender a hablar en español con reproductor de musica, para que no sea aburrido
-1. Tema de la página web
+1. plataforma de aprendizaje de colombianismos
 2. Análisis y definición de requerimientos de su propuestas
 3. Traer el diseño de la página web 
     Notas: 
