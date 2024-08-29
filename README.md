@@ -8,7 +8,7 @@ Un buen diseño mejora la experiencia del usuario al facilitar la navegación y 
 Plan de trabajo
 Desarrollo de aplicación web
 
-Tareas para el día lunes.
+Tareas para el día lunes (1 de septiembre).
 1. Tema de la página web
 2. Análisis y definición de requerimientos de su propuestas
 3. Traer el diseño de la página web 
