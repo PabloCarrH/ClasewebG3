@@ -10,8 +10,8 @@ Plan de trabajo
 Desarrollo de aplicación web
 
 Analisis:
-- En Colombia somos un país lleno de diversidad, por lo tanto contamos con una gran cantidad de dichos o palabras que hacen parte de nuestra jerga. Viendo la necesidad de las personas extranjeros de entender la jerga Colombiana, disponemos una aplicación en la que explicamos los posibles significados con su definición y pronunciación.
-- Tema de la página web: plataforma de aprendizaje de colombianismos / Aprender a hablar en español con reproductor de música, para que no sea tedioso (Aburrido).
+- En Colombia somos un país lleno de diversidad, por lo tanto contamos con una gran cantidad de dichos o palabras que hacen parte de nuestra jerga. Viendo la necesidad de las personas extranjeras de entender la jerga Colombiana, disponemos una aplicación en la que explicamos los posibles significados con su definición y pronunciación.
+- Tema de la página web: plataforma de aprendizaje de colombianismos para personas extrajeras como para personas de colombia / Aprender a hablar en español con reproductor de música, para que no sea tedioso (Aburrido).
 
 Requerimientos:
 - Entender las diferentes expresiones Colombianas.
