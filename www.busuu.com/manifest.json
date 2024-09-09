@@ -1,0 +1,28 @@
+{
+    "name": "Busuu",
+    "short_name": "Busuu",
+    "icons": [
+        {
+            "src": "https://cdn.busuu.com/homepage/34.12.1/img/busuu-icon-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "https://cdn.busuu.com/homepage/34.12.1/img/busuu-icon-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "prefer_related_applications": true,
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "#116EEE",
+    "gcm_sender_id": "1036757773475",
+    "related_applications": [
+        {
+            "platform": "play",
+            "id": "com.busuu.android.enc"
+        }
+    ]
+}
