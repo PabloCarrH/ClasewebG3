@@ -1,19 +1,27 @@
-El Proyecto
-Nombre: Habla Parce
-- El diseño web es lo primero que los visitantes notan al ingresar a un sitio. Una apariencia atractiva y profesional crea una buena impresión inicial, lo que aumenta la probabilidad de retener a los usuarios.
+# DuolingoApp
 
-Experiencia del Usuario (UX)
-- Un buen diseño mejora la experiencia del usuario al facilitar la navegación y la interacción. Un diseño intuitivo y bien estructurado permite a los usuarios encontrar fácilmente la información que están buscando.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
+## Development server
 
-Plan de trabajo:
-Analisis:
-- En Colombia somos un país lleno de diversidad, por lo tanto contamos con una gran cantidad de dichos o palabras que hacen parte de nuestra jerga; viendo la necesidad de las personas extranjeras de entender la jerga Colombiana, disponemos una aplicación en la que explicamos los posibles significados con su definición y pronunciación.
-- Tema de la página web: Plataforma de aprendizaje de colombianismos para personas extrajeras (angloparlantes) que quieran aprenderlos, esto mediante diferentes ejercicios con reproductor de música, completar palabras, entre otros, con el fin de que no sea tedioso (Aburrido).
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Requerimientos:
-- La aplicacion va a manejar audios en donde se van a reproducir distintos colombianismos con el fin de comprenderlos.
-- El usuario debe poder ingresar con usuario y contraseña.
-- La plataforma tendrá una categorización por regiones y tema.
-- La plataforma tendrá actividades, contenido interactivo  y gamificado.
-- Se debe manejar un sistema de reintentos al momento de equivocarse.
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
