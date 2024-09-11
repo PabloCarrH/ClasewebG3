@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.busuu.com	TRUE	/	FALSE	1999999999	AWSALB	omL5+4Pmd/8DfsN4Ef8Wbq1ZQXDVy7dIC2kH1ONcg3pvdSiv2GjZ7/V+99tp33rrQK3SrzvB7POK4WfJLTvALMeJSHFtRIS43x80yo4jsg3Gn7w+3J0Cv1LlVtKg
-www.busuu.com	TRUE	/	FALSE	1999999999	AWSALBCORS	omL5+4Pmd/8DfsN4Ef8Wbq1ZQXDVy7dIC2kH1ONcg3pvdSiv2GjZ7/V+99tp33rrQK3SrzvB7POK4WfJLTvALMeJSHFtRIS43x80yo4jsg3Gn7w+3J0Cv1LlVtKg
-www.busuu.com	TRUE	/	FALSE	1999999999	SameSite	None
-
