@@ -9,7 +9,7 @@
     <title>Login Hablá Parce</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="https://uiparadox.co.uk/templates/educate/v2/assets/media/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="Icono-barra.ico">
 
     <!-- All CSS files -->
     <link rel="stylesheet" href="./Educate __ Html 5 Template For Education &amp; LMS_files/bootstrap.min.css">
@@ -60,6 +60,89 @@
         </div>
     </div>
 
+    <div id="volume-booster-visusalizer">
+        <div class="sound">
+            <div class="sound-icon"></div>
+            <div class="sound-wave sound-wave_one"></div>
+            <div class="sound-wave sound-wave_two"></div>
+            <div class="sound-wave sound-wave_three"></div>
+        </div>
+        <div class="segments-box">
+            <div data-range="1-20" class="segment"><span></span></div>
+            <div data-range="21-40" class="segment"><span></span></div>
+            <div data-range="41-60" class="segment"><span></span></div>
+            <div data-range="61-80" class="segment"><span></span></div>
+            <div data-range="81-100" class="segment"><span></span></div>
+        </div>
+    </div>
+    <div id="visit-counter" style="font-size: 24px; color: blue; margin-top: 20px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+        Cargando contador...
+    </div>
+    <script>
+        function validateForm() {
+            var email = document.getElementById('login-email').value;
+            var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            
+            if (!emailRegex.test(email)) {
+                alert("Por favor, ingrese un correo electrónico válido.");
+                return false;
+            }
+            return true;
+        }
+    
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            if (!validateForm()) {
+                return;
+            }
+    
+            const email = document.getElementById('login-email').value;
+            const password = document.getElementById('login-password').value;
+    
+            // Aquí deberá reemplazar '/api/login' con la URL real de su API cuando la tenga
+            fetch('/api/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, password }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Login exitoso, redirigir o mostrar mensaje
+                    window.location.href = '/dashboard';
+                } else {
+                    // Login fallido, mostrar error
+                    alert('Login fallido: ' + data.message);
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        });
+    
+
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // Contador de visitas
+                let visitCount = localStorage.getItem('page_view_count');
+                if (!visitCount) {
+                    visitCount = 0;
+                }
+                visitCount++;
+                localStorage.setItem('page_view_count', visitCount);
+                
+                const counterElement = document.getElementById('visit-counter');
+                if (counterElement) {
+                    counterElement.innerText = `Visitas: ${visitCount}`;
+                } else {
+                    console.error('El elemento del contador no existe.');
+                }
+            });
+        </script>
     <!-- Main Wrapper Start -->
     <div id="main-wrapper" class="main-wrapper">
         <!-- Header Area start -->
@@ -70,7 +153,7 @@
                         <div class="main-menu__left">
                             <div class="main-menu__logo">
                                 <a href="index.html">
-                                    <img src="index_files/logo.png"  alt="Logo Hablá Parce">
+                                    <img src="Logo con nombre.png"  alt="Logo Hablá Parce" width="60%" height="auto">
                                 </a>
                             </div>
                         </div>
@@ -116,7 +199,7 @@
                                 <div class="bottom-row">
                                     <h6>¿No tienes cuenta? <a href="https://uiparadox.co.uk/templates/educate/v2/register.html" class="color-primary">
                                             Registrar</a></h6>
-                                    <h6><a href="https://uiparadox.co.uk/templates/educate/v2/login.html" class="color-primary">Olvide mi contraceña</a></h6>
+                                    <h6><a href="https://uiparadox.co.uk/templates/educate/v2/login.html" class="color-primary">Olvide mi contraseña</a></h6>
                                 </div>
                             </div>
                             <div class="shapes">
@@ -151,87 +234,5 @@
     <script src="./Educate __ Html 5 Template For Education &amp; LMS_files/app.js.descarga"></script>
 
 
-<div id="volume-booster-visusalizer">
-                <div class="sound">
-                    <div class="sound-icon"></div>
-                    <div class="sound-wave sound-wave_one"></div>
-                    <div class="sound-wave sound-wave_two"></div>
-                    <div class="sound-wave sound-wave_three"></div>
-                </div>
-                <div class="segments-box">
-                    <div data-range="1-20" class="segment"><span></span></div>
-                    <div data-range="21-40" class="segment"><span></span></div>
-                    <div data-range="41-60" class="segment"><span></span></div>
-                    <div data-range="61-80" class="segment"><span></span></div>
-                    <div data-range="81-100" class="segment"><span></span></div>
-                </div>
-            </div>
-            <div id="visit-counter" style="font-size: 24px; color: blue; margin-top: 20px; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-                Cargando contador...
-            </div>
-            <script>
-                function validateForm() {
-                    var email = document.getElementById('login-email').value;
-                    var emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-                    
-                    if (!emailRegex.test(email)) {
-                        alert("Por favor, ingrese un correo electrónico válido.");
-                        return false;
-                    }
-                    return true;
-                }
-            
-                document.getElementById('loginForm').addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    
-                    if (!validateForm()) {
-                        return;
-                    }
-            
-                    const email = document.getElementById('login-email').value;
-                    const password = document.getElementById('login-password').value;
-            
-                    // Aquí deberá reemplazar '/api/login' con la URL real de su API cuando la tenga
-                    fetch('/api/login', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({ email, password }),
-                    })
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.success) {
-                            // Login exitoso, redirigir o mostrar mensaje
-                            window.location.href = '/dashboard';
-                        } else {
-                            // Login fallido, mostrar error
-                            alert('Login fallido: ' + data.message);
-                        }
-                    })
-                    .catch((error) => {
-                        console.error('Error:', error);
-                    });
-                });
-            
 
-                </script>
-                <script>
-                    document.addEventListener('DOMContentLoaded', () => {
-                        // Contador de visitas
-                        let visitCount = localStorage.getItem('page_view_count');
-                        if (!visitCount) {
-                            visitCount = 0;
-                        }
-                        visitCount++;
-                        localStorage.setItem('page_view_count', visitCount);
-                        
-                        const counterElement = document.getElementById('visit-counter');
-                        if (counterElement) {
-                            counterElement.innerText = `Visitas: ${visitCount}`;
-                        } else {
-                            console.error('El elemento del contador no existe.');
-                        }
-                    });
-                </script>
         </body></html>
