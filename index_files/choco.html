@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombianismos choco - Página Principal</title>
+    <link rel="stylesheet" href="choco.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>choco</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main>
+            <!-- Carrusel de Videos (Enlaces a YouTube) -->
+            <section id="videos">
+                <h2>Videos de aprendizaje</h2>
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <iframe src="https://www.youtube.com/embed/Ych0uXM4CW4?si=ue9503nrmKFd0f4J" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/WN93wH5QbDk?si=uGXL4bOu566868hP" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/Lb5240RWSzY?si=LXXnaMQtWiC6I4oV" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </section>
+
+            <!-- Sección de Colombianismos Paisa -->
+            <section id="colombianismos">
+                <h2>Colombianismos choco</h2>
+                <div class="grid">
+                    <div class="grid-item">"Juepucha"
+                        Significado: Expresión para mostrar sorpresa o disgusto</div>
+                    <div class="grid-item">"Parchado"
+                        Significado: Estar tranquilo, relajado o sin preocupaciones.</div>
+                    <div class="grid-item">"Charro"
+                        Significado: Algo divertido o gracioso.</div>
+                    <div class="grid-item">"Camello"
+                        Significado: Trabajo o empleo, generalmente duro.</div>
+                    <div class="grid-item">"Mañé"
+                        Significado: De mal gusto o anticuado.</div>
+                    <div class="grid-item">"Bacano"
+                        Significado: Algo chévere, agradable o genial.</div>
+                </div>
+            </section>
+
+            <!-- Botón Jugar -->
+            <section id="jugar-section">
+                <h3>¿Quieres aprender mas? dale en jugar</h3>
+                <img src="juego.png" alt="Juego" class="game-image">
+                <button id="jugar-btn" onclick="location.href='quizchoco.html'">JUGAR</button>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Colombianismos Paisa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="choco.js"></script>
+</body>
+</html>
