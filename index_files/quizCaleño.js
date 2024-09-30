@@ -1,41 +1,41 @@
 const questions = [
     {
-        question: "¿Qué significa la palabra 'sisas'?",
+        question: "¿Qué significa la palabra 'Ois'?",
         options: [
-            "Expresión afirmativa que significa 'sí'",
-            "Algo adicional que se da, generalmente en una compra",
-            "Pereza o molestia para hacer algo",
-            "Forma coloquial de referirse a los padres"
+            "Es una expresión usada para indicar cansancio",
+            "Es una forma de captar la atención del interlocutor",
+            "Significa que algo es muy caro",
+            "Es una manera de pedir disculpas"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué es una 'ñapa'?",
+        question: "¿Qué es una 'Borondo'?",
         options: [
-            "Algo adicional que se da, generalmente en una compra",
-            "Una fiesta",
-            "Una forma de decir adiós",
-            "Un tipo de bebida"
+            "Es salir sin rumbo fijo con los amigos",
+            "Es el nombre de un postre tradicional",
+            "Significa ir a trabajar temprano",
+            "Se usa para describir a alguien que está enojado"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué significa 'jartera'?",
+        question: "¿Qué significa 'chuspa'?",
         options: [
-            "Una situación divertida",
-            "Pereza o molestia para hacer algo",
-            "Un tipo de comida",
-            "Una celebración"
+            "Es una palabra para referirse a la lluvia",
+            "Se usa para describir a alguien que no tiene dinero",
+            "Significa una bolsa plástica",
+            "Es un término para algo muy pesado"
         ],
         correctAnswer: 1
     },
     {
-        question: "¿Cómo se refiere comúnmente a los padres con el término 'cucho'?",
+        question: "¿Cómo se refiere comúnmente a los padres con el término 'chapeo'?",
         options: [
-            "A los hermanos",
-            "A los abuelos",
-            "A los padres",
-            "A los amigos"
+            "Es una persona ligeramente alicorada",
+            "Significa estar cansado",
+            "Se refiere a una persona muy inteligente",
+            "Es un término para alguien que trabaja en el campo"
         ],
         correctAnswer: 2
     },
