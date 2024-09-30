@@ -134,7 +134,7 @@ function checkAnswer(selectedAnswer) {
         } else {
             window.location.href = "paisa.html"; // Redireccionar al finalizar
         }
-    }, 2000); // Espera 5 segundos antes de cargar la siguiente pregunta
+    }, 2000); // Espera 2 segundos antes de cargar la siguiente pregunta
 }
 
 window.onload = loadQuestion;

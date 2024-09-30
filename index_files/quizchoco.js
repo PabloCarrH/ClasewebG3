@@ -156,15 +156,18 @@ function checkAnswer(selectedAnswer) {
 
     buttons.forEach(button => button.disabled = true); // Deshabilitar todos los botones
 
-    // Esperar 2 segundos antes de cargar la siguiente pregunta
-    setTimeout(() => {
+     // Esperar 2 segundos antes de cargar la siguiente pregunta
+     setTimeout(() => {
         currentQuestion++;
         if (currentQuestion < questions.length) {
             loadQuestion();
         } else {
-            window.location.href = "choco.html"; // Redireccionar al finalizar
+            window.location.href = "paisa.html"; // Redireccionar al finalizar
         }
-    }, 2000); // Espera 5 segundos antes de cargar la siguiente pregunta
+    }, 2000); // Espera 2 segundos antes de cargar la siguiente pregunta
 }
 
 window.onload = loadQuestion;
+
+
+
