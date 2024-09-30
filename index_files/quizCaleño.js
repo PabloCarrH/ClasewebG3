@@ -142,7 +142,7 @@ function checkAnswer(selectedAnswer) {
         if (currentQuestion < questions.length) {
             loadQuestion();
         } else {
-            window.location.href = "paisa.html"; // Redireccionar al finalizar
+            window.location.href = "caleño:html"; // Redireccionar al finalizar
         }
     }, 5000); // Espera 5 segundos antes de cargar la siguiente pregunta
 }
