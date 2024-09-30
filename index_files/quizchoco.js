@@ -1,101 +1,131 @@
 const questions = [
     {
-        question: "¿Qué significa la palabra 'sisas'?",
+        question: "¿Qué significa 'Prieto'?",
         options: [
-            "Expresión afirmativa que significa 'sí'",
-            "Algo adicional que se da, generalmente en una compra",
-            "Pereza o molestia para hacer algo",
-            "Forma coloquial de referirse a los padres"
+            "Es dejarse el cabello largo",
+            "Es quitarse todo el cabello de la cabeza", // Correcta
+            "Es hacerse un peinado elaborado",
+            "Es pintarse el cabello"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "¿Qué significa 'Pichicato'?",
+        options: [
+            "Es generosa y desprendida",
+            "Es dura para gastar su dinero con los demás", // Correcta
+            "Es amigable y cariñosa",
+            "Siempre comprando regalos"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "¿Qué significa 'Barbachan'?",
+        options: [
+            "Hablar mucho y hacer poco", // Correcta
+            "Hacer mucho trabajo",
+            "Escuchar atentamente",
+            "Ser muy callada"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué es una 'ñapa'?",
+        question: "¿Qué es una 'Boda'?",
         options: [
-            "Algo adicional que se da, generalmente en una compra",
-            "Una fiesta",
+            "Fiesta",
+            "Pequeña reunión entre amigos para hacer comida", // Correcta
+            "Convite",
+            "Celebración"
+        ],
+        correctAnswer: 1
+    },
+    {
+        question: "¿Qué significa 'Biche'?",
+        options: [
+            "Bebida extraída del guarapo de caña", // Correcta
+            "Un tipo de postre",
+            "Una fruta tropical",
+            "Un tipo de carne"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'Gallega'?",
+        options: [
+            "Grupo de personas que constantemente están juntos", // Correcta
             "Una forma de decir adiós",
-            "Un tipo de bebida"
+            "Un término para una celebración",
+            "Una reunión formal"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué significa 'jartera'?",
+        question: "¿Qué es 'Cocada'?",
         options: [
-            "Una situación divertida",
-            "Pereza o molestia para hacer algo",
+            "Un dulce típico de la región a base de coco y panela", // Correcta
+            "Un tipo de bebida",
+            "Una celebración",
+            "Una fruta"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'Corrinche'?",
+        options: [
+            "Chisme o desorden", // Correcta
+            "Una forma de saludar",
             "Un tipo de comida",
             "Una celebración"
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
-        question: "¿Cómo se refiere comúnmente a los padres con el término 'cucho'?",
+        question: "¿Qué significa 'Chimpo'?",
         options: [
-            "A los hermanos",
-            "A los abuelos",
-            "A los padres",
-            "A los amigos"
-        ],
-        correctAnswer: 2
-    },
-    {
-        question: "¿Qué es el 'guaro'?",
-        options: [
-            "Un tipo de fruta",
-            "Una bebida alcohólica",
-            "Un postre típico",
-            "Un tipo de música"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Si alguien es 'teso', ¿qué significa?",
-        options: [
-            "Que es muy hábil",
-            "Que es muy tonto",
-            "Que es muy divertido",
-            "Que es muy serio"
+            "Pedir que te presten un carro, una moto o una bicicleta para ir a darte una vuelta", // Correcta
+            "Hacer ejercicio",
+            "Reunirse con amigos",
+            "Preparar comida"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué implica la frase 'qué nota'?",
+        question: "¿Qué significa 'Ñingri'?",
         options: [
-            "Algo muy aburrido",
-            "Algo muy bueno o agradable",
-            "Algo muy complicado",
-            "Algo muy fácil"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "¿Qué significa 'dar papaya'?",
-        options: [
-            "No cuidar algo adecuadamente",
-            "Dar una fiesta",
-            "Hacer un regalo",
-            "Invitar a alguien"
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "¿Qué es una 'farra'?",
-        options: [
+            "Cantidad o porción pequeña", // Correcta
             "Un tipo de comida",
-            "Una fiesta o celebración",
-            "Un problema",
-            "Una canción"
+            "Una forma de decir mucho",
+            "Una expresión de sorpresa"
         ],
-        correctAnswer: 1
+        correctAnswer: 0
     },
     {
-        question: "¿Qué significa 'paila'?",
+        question: "¿Qué significa 'Embelezado'?",
         options: [
-            "Mala suerte o una situación desafortunada",
-            "Algo muy divertido",
-            "Una comida típica",
-            "Una bebida"
+            "Persona distraída viendo otra cosa", // Correcta
+            "Alguien que presta atención",
+            "Una persona muy inteligente",
+            "Alguien que está siempre ocupado"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'Ajo'?",
+        options: [
+            "Ajo, manito, compraste celular nuevo", // Correcta
+            "Un tipo de condimento",
+            "Una forma de decir hola",
+            "Un término para referirse a la comida"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'Atembado'?",
+        options: [
+            "Bobo", // Correcta
+            "Inteligente",
+            "Sabio",
+            "Astuto"
         ],
         correctAnswer: 0
     }
