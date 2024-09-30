@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombianismos CALEÑO - Página Principal</title>
+    <link rel="stylesheet" href="paisa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CALEÑO</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main>
+            <!-- Carrusel de Videos (Enlaces a YouTube) -->
+            <section id="videos">
+                <h2>Videos de aprendizaje</h2>
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <iframe src="https://youtu.be/EafHqsFVYqw?si=u5HLqlFAmAVJn1kb" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://youtu.be/XlikF6qLUtM?si=1Nh6_pHWftTj5WWC" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </section>
+
+            <!-- Sección de Colombianismos Paisa -->
+            <section id="colombianismos">
+                <h2>Colombianismos CALEÑO</h2>
+                <div class="grid">
+                    <div class="grid-item">"Ois"
+                        Significado: Es una forma de captar la atención del participante.</div>
+                    <div class="grid-item">"Borondo"
+                        Significado: Salir sin rumbo fijo con los amigos.</div>
+                    <div class="grid-item">"Chuspa"
+                        Significado: Bolsa plástica o bolsa de basura.</div>
+                    <div class="grid-item">"Camellar"
+                        Significado: Trabajar.</div>
+                    <div class="grid-item">"Visajoso"
+                        Significado: Persona que le gusta llamar la atención alardeando.</div>
+                    <div class="grid-item">"Chapeo"
+                        Significado: Que está ligeramente alicorado.</div>
+                    <div class="grid-item">"Aguanta"
+                        Significado: Situación que es llamativa o chevere.</div>
+                    <div class="grid-item">"Bizcocho"
+                        Significado:  Alguien bien parecido, atractivo.</div>
+                </div>
+            </section>
+
+            <!-- Botón Jugar -->
+            <section id="jugar-section">
+                <h3>¿Quieres aprender mas? dale en jugar</h3>
+                <img src="juego.png" alt="Juego" class="game-image">
+                <button id="jugar-btn" onclick="location.href='quizpaisa.html'">JUGAR</button>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Colombianismos Caleño. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Caleño.js"></script>
+</body>
+</html>
