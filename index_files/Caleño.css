@@ -54,7 +54,7 @@ main {
 .carousel {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 80px;
     margin: 0 auto;
 }
 
