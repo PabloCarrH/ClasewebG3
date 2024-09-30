@@ -24,7 +24,17 @@ header {
     background-color: #005f73;
     padding: 20px;
     border-radius: 10px;
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho de la pantalla */
+    max-width: 100%; /* Evita restricciones de ancho */
+    box-sizing: border-box; /* Asegura que el padding no incremente el tamaño del contenedor */
 }
+/* Ajustar tamaño del logo */
+.logo {
+    width: 150px; /* Ajusta el tamaño del logo a lo que desees */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
 
 header h1 {
     color: #fff;
