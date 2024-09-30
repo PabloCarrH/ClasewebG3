@@ -1,18 +1,18 @@
 const questions = [
     {
-        question: "¿Qué significa la palabra 'Ois'?",
+        question: "¿Qué significa la palabra 'oís'?",
         options: [
-            "Es una expresión usada para indicar cansancio",
-            "Es una forma de captar la atención del interlocutor",
+            "Es una forma de captar la atención del interlocutor, similar a 'Mirá vé'", // Correcta
+            "Es una manera de pedir disculpas",
             "Significa que algo es muy caro",
-            "Es una manera de pedir disculpas"
+            "Es una expresión usada para indicar cansancio"
         ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué es una 'Borondo'?",
+        question: "¿Qué significa 'borondo'?",
         options: [
-            "Es salir sin rumbo fijo con los amigos",
+            "Salir sin rumbo fijo con los amigos", // Correcta
             "Es el nombre de un postre tradicional",
             "Significa ir a trabajar temprano",
             "Se usa para describir a alguien que está enojado"
@@ -20,82 +20,92 @@ const questions = [
         correctAnswer: 0
     },
     {
+        question: "¿Qué significa 'camellar'?",
+        options: [
+            "Significa descansar en la tarde",
+            "Es trabajar", // Correcta
+            "Es hacer ejercicio en la mañana",
+            "Es viajar con frecuencia"
+        ],
+        correctAnswer: 1
+    },
+    {
         question: "¿Qué significa 'chuspa'?",
         options: [
             "Es una palabra para referirse a la lluvia",
+            "Significa una bolsa plástica", // Correcta
             "Se usa para describir a alguien que no tiene dinero",
-            "Significa una bolsa plástica",
             "Es un término para algo muy pesado"
         ],
         correctAnswer: 1
     },
     {
-        question: "¿Cómo se refiere comúnmente a los padres con el término 'chapeo'?",
+        question: "¿Qué significa 'visajoso'?",
         options: [
-            "Es una persona ligeramente alicorada",
+            "Es una persona que le gusta llamar la atención alardeando", // Correcta
+            "Se refiere a una persona tímida",
+            "Es un término para alguien muy trabajador",
+            "Describe a alguien que es callado y reservado"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'gasimba'?",
+        options: [
+            "Es una bebida gaseosa", // Correcta
+            "Significa una persona muy energética",
+            "Se refiere a una comida típica",
+            "Es un postre tradicional"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'chichipato'?",
+        options: [
+            "Es una persona incumplida o mezquina", // Correcta
+            "Se refiere a alguien que siempre llega temprano",
+            "Es una expresión para alguien muy rico",
+            "Significa alguien muy generoso"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'calidoso'?",
+        options: [
+            "Es algo de buena calidad o chévere", // Correcta
+            "Significa algo frío",
+            "Se refiere a un lugar oscuro",
+            "Es una comida tradicional"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'bizcocho'?",
+        options: [
+            "Es una persona atractiva o bien parecida", // Correcta
+            "Se refiere a una persona que cocina muy bien",
+            "Significa alguien muy distraído",
+            "Es una persona que siempre está cansada"
+        ],
+        correctAnswer: 0
+    },
+    {
+        question: "¿Qué significa 'chapeo'?",
+        options: [
+            "Es una persona ligeramente alicorada", // Correcta
             "Significa estar cansado",
             "Se refiere a una persona muy inteligente",
             "Es un término para alguien que trabaja en el campo"
         ],
-        correctAnswer: 2
-    },
-    {
-        question: "¿Qué es el 'guaro'?",
-        options: [
-            "Un tipo de fruta",
-            "Una bebida alcohólica",
-            "Un postre típico",
-            "Un tipo de música"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Si alguien es 'teso', ¿qué significa?",
-        options: [
-            "Que es muy hábil",
-            "Que es muy tonto",
-            "Que es muy divertido",
-            "Que es muy serio"
-        ],
         correctAnswer: 0
     },
     {
-        question: "¿Qué implica la frase 'qué nota'?",
+        question: "¿Qué significa 'aguanta'?",
         options: [
-            "Algo muy aburrido",
-            "Algo muy bueno o agradable",
-            "Algo muy complicado",
-            "Algo muy fácil"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "¿Qué significa 'dar papaya'?",
-        options: [
-            "No cuidar algo adecuadamente",
-            "Dar una fiesta",
-            "Hacer un regalo",
-            "Invitar a alguien"
-        ],
-        correctAnswer: 0
-    },
-    {
-        question: "¿Qué es una 'farra'?",
-        options: [
-            "Un tipo de comida",
-            "Una fiesta o celebración",
-            "Un problema",
-            "Una canción"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "¿Qué significa 'paila'?",
-        options: [
-            "Mala suerte o una situación desafortunada",
-            "Algo muy divertido",
-            "Una comida típica",
-            "Una bebida"
+            "Es alguien que reúne características para trascender de la amistad a algo más", // Correcta
+            "Significa estar enfermo",
+            "Es una persona que no tiene energía",
+            "Se refiere a alguien que es muy rudo"
         ],
         correctAnswer: 0
     }
@@ -138,3 +148,4 @@ function checkAnswer(selectedAnswer) {
 }
 
 window.onload = loadQuestion;
+
