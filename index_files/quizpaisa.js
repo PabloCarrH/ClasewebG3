@@ -126,7 +126,7 @@ function checkAnswer(selectedAnswer) {
 
     buttons.forEach(button => button.disabled = true); // Deshabilitar todos los botones
 
-    // Esperar 5 segundos antes de cargar la siguiente pregunta
+    // Esperar 2 segundos antes de cargar la siguiente pregunta
     setTimeout(() => {
         currentQuestion++;
         if (currentQuestion < questions.length) {
@@ -134,7 +134,7 @@ function checkAnswer(selectedAnswer) {
         } else {
             window.location.href = "paisa.html"; // Redireccionar al finalizar
         }
-    }, 5000); // Espera 5 segundos antes de cargar la siguiente pregunta
+    }, 2000); // Espera 5 segundos antes de cargar la siguiente pregunta
 }
 
 window.onload = loadQuestion;
