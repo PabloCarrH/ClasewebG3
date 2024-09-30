@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombianismos Boyacense - Página Principal</title>
+    <link rel="stylesheet" href="paisa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BOYACENSE</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main>
+            <!-- Carrusel de Videos (Enlaces a YouTube) -->
+            <section id="videos">
+                <h2>Videos de aprendizaje</h2>
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <iframe src="https://youtu.be/4jx6nhuskyE?si=a9nzmdtfLCJnx6Pt" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/WN93wH5QbDk?si=uGXL4bOu566868hP" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://youtu.be/tEVkaBfHPas?si=X4zBSUoVr5F__U9j" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </section>
+
+            <!-- Sección de Colombianismos Paisa -->
+            <section id="boyacensismos">
+                <h2>Boyacensismos</h2>
+                <div class="grid">
+                    <div class="grid-item">"Jato"
+                        Significado: Casa o hogar.</div>
+                    <div class="grid-item">"Güevón"
+                        Significado: Persona tonta o perezosa, aunque también se usa de forma amistosa.</div>
+                    <div class="grid-item">"Pola"
+                        Significado: Cerveza.</div>
+                    <div class="grid-item">"Mera"
+                        Significado: Muy, realmente; se usa para enfatizar.</div>
+                    <div class="grid-item">"Choclo"
+                        Significado: Mazorca de maíz; también se refiere a algo sencillo.</div>
+                    <div class="grid-item">"Arrecho"
+                        Significado: Algo impresionante o sorprendente.</div>
+                    <div class="grid-item">"Aguanta"
+                        Significado: Ser fuerte o resistir; también se usa como "espera".</div>
+                </div>
+            </section>
+            
+
+            <!-- Botón Jugar -->
+            <section id="jugar-section">
+                <h3>¿Quieres aprender mas? dale en jugar</h3>
+                <img src="juego.png" alt="Juego" class="game-image">
+                <button id="jugar-btn" onclick="location.href='quizpaisa.html'">JUGAR</button>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Colombianismos Paisa. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="paisa.js"></script>
+</body>
+</html>
