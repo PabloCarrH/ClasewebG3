@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.message p {
+    color: #ffffff; /* Cambia este valor por el color que desees */
+    font-size: 1rem; /* Ajusta el tamaño de fuente si es necesario */
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, yellow, blue, red); /* Gradiente de colores */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container-form {
+    width: 90%;
+    height: auto; /* Ajuste automático de altura */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Se ajusta para pantallas más pequeñas */
+    transition: all .5s ease-out;
+}
+
+.welcome-back {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: 1; /* Se adapta al tamaño del contenedor */
+}
+
+.message {
+    padding: 1rem;
+}
+
+.message h2 {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%; /* Limita el ancho del texto */
+}
+
+.message button {
+    padding: 1rem;
+    font-weight: 400;
+    background-color: #4a4aee;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: .9rem;
+    margin-top: 2rem;
+    transition: all .3s ease-in;
+    color: #fff;
+}
+
+.message button:hover {
+    background-color: #6464f8;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px; /* Limita el ancho máximo */
+    padding: 1rem;
+    margin: 2rem auto;
+    background-color: rgba(53, 42, 42, 0.602);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.create-account {
+    padding: 2.7rem 0;
+    font-size: 1.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 100%; /* Limita el ancho del texto */
+}
+
+.iconos {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.unique-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: 200px; /* Ajusta la altura según sea necesario */
+    overflow: hidden; /* Esto oculta cualquier parte de la imagen que se desborde */
+}
+
+.unique-icon img {
+    width: auto; /* Asegúrate de que la imagen ocupe el ancho completo */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    max-height: 100%; /* Limita la altura para evitar el recorte */
+    object-fit: cover; /* Cubre el área del contenedor, recortando si es necesario */
+}
+
+.unique-icon:hover {
+    background-color: #4a4aee;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.cuenta-gratis {
+    padding: 2rem 0;
+}
+
+.formulario input {
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: white thin solid;
+    text-align: center;
+    outline: none;
+    padding: .2rem 0;
+    font-size: .9rem;
+    color: rgb(163, 27, 27);
+    word-wrap: break-word;
+}
+
+.formulario input[type="button"] {
+    width: 60%;
+    margin: auto;
+    border: solid thin white;
+    padding: .7rem;
+    border-radius: 2rem;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-size: .8rem;
+    cursor: pointer;
+    color: #ffe7e7;
+}
+
+.sign-in {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sign-in.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sign-up.active {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Responsive Design: Pantallas medianas (tabletas) */
+@media (max-width: 1024px) {
+    .container-form {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .formulario {
+        width: 80%;
+        margin: 1rem 0;
+    }
+
+    .message h2 {
+        font-size: 1.4rem;
+    }
+
+    .create-account {
+        font-size: 1.5rem;
+    }
+
+    .message button {
+        font-size: 0.8rem;
+    }
+
+    .iconos {
+        width: 150px;
+    }
+}
+
+/* Responsive Design: Pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .container-form {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .formulario {
+        width: 100%;
+        margin: 0.5rem 0;
+        padding: 1rem;
+    }
+
+    .message h2 {
+        font-size: 1.2rem;
+    }
+
+    .create-account {
+        font-size: 1.4rem;
+    }
+
+    .formulario input {
+        width: 90%;
+    }
+
+    .unique-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .iconos {
+        width: 120px;
+    }
+}
+
+/* Ajustes para pantallas extra pequeñas (teléfonos) */
+@media (max-width: 480px) {
+    .message h2 {
+        font-size: 1rem;
+    }
+
+    .create-account {
+        font-size: 1.2rem;
+    }
+
+    .message button {
+        font-size: 0.7rem;
+    }
+
+    .formulario input {
+        font-size: .8rem;
+    }
+}
