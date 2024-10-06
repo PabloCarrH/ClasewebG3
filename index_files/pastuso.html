@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colombianismos PASTUSO - Página Principal</title>
+    <link rel="stylesheet" href="Pastuso.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PASTUSO</h1>
+            <img src="logo.png" alt="Logo" class="logo">
+        </header>
+
+        <main>
+            <!-- Carrusel de Videos (Enlaces a YouTube) -->
+            <section id="videos">
+                <h2>Videos de aprendizaje</h2>
+                <div class="carousel">
+                    <div class="carousel-item active">
+                        <iframe src="https://www.youtube.com/embed/dBm4wJoNpmI" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/wg-EXWf86d4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/fBzbxFYHZz8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe src="https://www.youtube.com/embed/H_FlRvHvtx8" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <button class="carousel-control prev" onclick="prevSlide()">&#10094;</button>
+                <button class="carousel-control next" onclick="nextSlide()">&#10095;</button>
+            </section>
+
+            <!-- Sección de Colombianismos pastusos -->
+            <section id="colombianismos">
+                <h2>Colombianismos PASTUSOS</h2>
+                <div class="grid">
+                    <div class="grid-item">"Guagua"
+                        Significado: Niño pequeño, bebé.</div>
+                    <div class="grid-item">"Chumbe"
+                        Significado: Faja de lana o cinturón tejido que usan los campesinos.</div>
+                    <div class="grid-item">"Macanudo"
+                        Significado: Genial, excelente.</div>
+                    <div class="grid-item">"Hacerse la madre"
+                        Significado: Caerse o tropezarse fuertemente.</div>
+                    <div class="grid-item">"Ñapanga"
+                        Significado: Mujer del campo, campesina.</div>
+                    <div class="grid-item">"Llucha"
+                        Significado: Sobrante o propina pequeña en una transacción.</div>
+                    <div class="grid-item">"Ñe"
+                        Significado: Expresión para mostrar sorpresa o asombro.</div>
+                    <div class="grid-item">"Mamarse"
+                        Significado: Burlarse de alguien o molestar de forma juguetona.</div>
+                </div>
+            </section>
+
+            <!-- Botón Jugar -->
+            <section id="jugar-section">
+                <h3>¿Quieres aprender más? dale en jugar</h3>
+                <button id="jugar-btn" onclick="location.href='quizPastuso.html'">JUGAR</button>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Colombianismos Pastuso. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="Pastuso.js"></script>
+</body>
+</html>
